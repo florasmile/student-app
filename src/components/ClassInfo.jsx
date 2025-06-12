@@ -12,7 +12,7 @@ const ClassInfo = (props) => {
   );
 };
 
-ClassInfo.proptypes = {
+ClassInfo.propTypes = {
   memberCount: PropTypes.number.isRequired,
 };
 export default ClassInfo;
